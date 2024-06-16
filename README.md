@@ -1,3 +1,40 @@
+# Technical Project Showcase - Julia Voortman - Contentful Support Engineer Interview
+
+This is a short README about this React app, and my previous technical experience! 
+
+## 1. Monsters, a (tiny) React app connecting to Contentful
+
+I didn't get as far along with this as I'd hoped, but this is a small React app that takes data from my Contentful space. 
+
+In Contentful, I defined two content types:
+
+• Page (title, image)
+• Monster (name, image, description, top skill, strength)
+
+I also created 2 page entries:
+
+• Home
+• Monsters
+
+And 3 monster entries:
+
+• Bumblethump
+• Frightwhisker
+• Grizzlepuff
+
+I started to add some routing and separate components for the Home and Monster pages, but ran into a few problems I didn't know how to solve (yet)!
+
+With a bit more time, I would have liked the app to have:
+
+1. A link on the Home page to the Monsters page. 
+2. A Monsters page, a list of names and images for each monster, linked to their respective monster details page.
+2. A page for individual monsters.
+
+## 2. My previous technical experience
+
+I started out in the software world as a tinkerer. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
