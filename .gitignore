@@ -1,0 +1,16 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+
+# Ignore other specific files
+secrets.env

@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: zoom-in-zoom-out infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #51b29a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes zoom-in-zoom-out {
+  /* At the beginning of the animation */
+  0% {
+    /* Scale the element to its original size */
+    transform: scale(1, 1);
+  }
+  /* At the middle of the animation */
+  50% {
+    /* Scale the element to 1.5 times its original size */
+    transform: scale(1.7, 1.7);
+  }
+  /* At the end of the animation */
+  100% {
+    /* Scale the element back to its original size */
+    transform: scale(1, 1);
+  }
+}
