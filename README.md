@@ -8,19 +8,19 @@ I didn't get as far along with this as I'd hoped, but this is a small React app 
 
 In Contentful, I defined two content types:
 
-• Page (title, image)
-• Monster (name, image, description, top skill, strength)
+- Page (title, image)
+- Monster (name, image, description, top skill, strength)
 
 I also created 2 page entries:
 
-• Home
-• Monsters
+- Home
+- Monsters
 
 And 3 monster entries:
 
-• Bumblethump
-• Frightwhisker
-• Grizzlepuff
+- Bumblethump
+- Frightwhisker
+- Grizzlepuff
 
 I started to add some routing and separate components for the Home and Monster pages, but ran into a few problems I didn't know how to solve (yet)!
 
@@ -32,8 +32,51 @@ With a bit more time, I would have liked the app to have:
 
 ## 2. My previous technical experience
 
-I started out in the software world as a tinkerer. 
+I started out in the software world as a tinkerer because I liked playing web games. At 10, I got my first taste of HTML and CSS and designed myself a custom homepage for an online game called Horseland. 
 
+### The Ultimate Horse - Game
+
+In my early teens, I partnered with a friend who had some programming skills and together we built an online game called The Ultimate Horse, which was a browser based horse adoption and racing game.
+
+While running this game and later others I picked up a few skills, such as:
+
+- Buying domain names, setting up SSL certificates and DNS configurations
+- Making small updates to HTML embedded in PHP scripts
+- Uploading assets and organising file folders
+- Updating MySQL database field values
+- Dealing with our hosting company to make sure we had appropriate server resources 
+- How to manage bug complaints and feature requests from a userbase of several thousand
+
+### Other Games - Tygras.com and Wulves.com
+
+Later on, I hired other freelancers and together we created two new games, launched in 2008 and 2011. These games were built with PHP, JavaScript and mySQL.
+
+Neither game is still online unfortunately, but I can show some of our graphics and UI in an [old article](https://softwarehamilton.com/2014/09/27/interview-with-wulves-team-leader-julia-voortman/):
+
+### Professional Experience
+
+My first professional job was as a Web Developer/Graphic Designer. At this job I learned a few more skills, such as:
+
+- How to read code a little better (took a course on Ruby/Rails, and later JavaScript/React)
+- How to customize Wordpress files and plugins
+- How to set up and run apps locally 
+- How to use Git/Github
+
+In more recent years, I've been:
+
+- Gaining a better understanding of how APIs work
+- Learning how CD/CI works
+- Learning lots about web crawlers and successfully testing websites as a bot
+- Learning lots about web accessibility
+
+And yesterday, I:
+
+- Learned about the difference between an REST API and a GraphQL API!
+- Got to grips with content modelling and best practices.
+
+I love learning, and hope to continue doing so at Contentful! 
+
+---
 
 # Getting Started with Create React App
 
